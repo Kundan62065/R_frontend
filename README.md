@@ -1,5 +1,22 @@
 # React + Vite
 
+
+
+#######################          Project Description            ################
+
+Developed a full-stack Real-Time Shift Management System for Indian Railways to monitor and manage duty hours of Loco Pilots and Train Managers. The system tracks live duty hours, triggers automated alerts at critical thresholds (8hr, 9hr, 11hr, 14hr), and enables administrators to plan crew relief operations in real-time.
+
+Key Features to Mention:
+
+Real-time duty hour monitoring using Socket.IO with automatic alerts at 8, 9, 11, and 14-hour thresholds
+Role-based access control (SUPERADMIN / ADMIN / USER) with JWT authentication and approval workflow
+Shift lifecycle management — create, monitor, plan relief, and complete shifts with full audit logs
+Live dashboard showing active shifts, critical alerts, and crew status with auto-refreshing timers
+Completed shifts report with Excel export functionality and duty hour analytics
+User management with pending approval system for new registrations
+Deployed backend on Render (Node.js) and frontend on Vercel with MongoDB Atlas cloud database
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
